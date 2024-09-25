@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: manufacture
+    database: business_directory
+    schema: manufacturing
+    tables:
+      - name: state_list
+      - name: company_list
+      - name: company_details
